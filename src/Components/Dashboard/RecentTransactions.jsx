@@ -1,5 +1,5 @@
 import React from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 import { formatCurrency, formatDate } from '../../utils';
 import { ArrowUpRight, ArrowDownRight } from 'lucide-react';
 import Card from '../UI/Card';

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 import { generateId, INCOME_SOURCES } from '../../utils';
 import Button from '../UI/Button';
 
