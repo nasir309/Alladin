@@ -1,5 +1,5 @@
 import React from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 import { calculateNetWorth, formatCurrency } from '../../utils';
 import { TrendingUp, TrendingDown } from 'lucide-react';
 import Card from '../UI/Card';
