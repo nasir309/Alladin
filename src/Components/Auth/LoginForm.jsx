@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 import { generateId } from '../../utils';
 import { TrendingUp, Mail, Lock, User, Eye, EyeOff, ArrowRight } from 'lucide-react';
 
@@ -108,7 +108,7 @@ export default function LoginForm() {
             </div>
           </div>
           <h1 className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-            MyFinTrack
+            ALLADIN
           </h1>
           <p className="mt-3 text-lg text-gray-600 font-medium">
             {isLogin ? 'Welcome back!' : 'Start your financial journey'}
