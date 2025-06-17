@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 import { generateTimeSeriesData } from '../../utils';
 import Card from '../UI/Card';
 
