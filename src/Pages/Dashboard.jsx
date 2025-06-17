@@ -2,7 +2,7 @@ import React from 'react';
 import { useApp } from '../Context/AppContext';
 import { calculateTotalIncome, calculateTotalExpenses, formatCurrency } from '../utils';
 import { DollarSign, TrendingUp, TrendingDown, PiggyBank } from 'lucide-react';
-import NetWorthCard from '../Components/Dashboard/NetWorthCard';
+import NetWorthCard from '../Components/Dashboard/NetworthCard';
 import StatsCard from '../Components/Dashboard/StatsCard';
 import AssetsChart from '../Components/Dashboard/AssetsChart';
 import IncomeExpenseChart from '../Components/Dashboard/IncomeExpenseChart';
