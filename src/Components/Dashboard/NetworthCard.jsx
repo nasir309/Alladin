@@ -10,7 +10,7 @@ export default function NetWorthCard() {
   const isPositive = netWorth >= 0;
 
   return (
-    <Card className="bg-gradient-to-r from-emerald-600 to-emerald-700 text-white">
+    <Card className="bg-gradient-to-r from-emerald-700 to-emerald-700 text-white">
       <div className="flex items-center justify-between">
         <div>
           <p className="text-emerald-100 text-sm font-medium">Net Worth</p>
