@@ -55,7 +55,7 @@ export default function LoginForm() {
         createdAt: new Date(),
       };
 
-      localStorage.setItem('myfintrack_user', JSON.stringify(user));
+      localStorage.setItem('myalladin_user', JSON.stringify(user));
       dispatch({ type: 'SET_USER', payload: user });
       setLoading(false);
     }, 1500);
