@@ -14,7 +14,7 @@ export default function IncomeExpenseChart() {
     timeframe
   );
 
-  // Combine data for chart
+  
   const chartData = incomeData.map((item, index) => ({
     date: item.date,
     income: item.value,

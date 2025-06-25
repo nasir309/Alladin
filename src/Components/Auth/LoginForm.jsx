@@ -118,12 +118,12 @@ export default function LoginForm() {
           </p>
         </div>
 
-        {/* Form Card */}
+        
         <div className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-white to-gray-50 rounded-2xl blur-sm"></div>
           <div className="relative bg-white/80 backdrop-blur-xl py-10 px-8 shadow-2xl rounded-2xl border border-white/20">
             <form className="space-y-6" onSubmit={handleSubmit}>
-              {/* Name Field (Sign Up Only) */}
+              
               {!isLogin && (
                 <div className="space-y-2">
                   <label htmlFor="name" className="block text-sm font-semibold text-gray-700">
@@ -152,7 +152,7 @@ export default function LoginForm() {
                 </div>
               )}
 
-              {/* Email Field */}
+              
               <div className="space-y-2">
                 <label htmlFor="email" className="block text-sm font-semibold text-gray-700">
                   Email Address
@@ -179,7 +179,7 @@ export default function LoginForm() {
                 )}
               </div>
 
-              {/* Password Field */}
+              
               <div className="space-y-2">
                 <label htmlFor="password" className="block text-sm font-semibold text-gray-700">
                   Password
@@ -217,7 +217,7 @@ export default function LoginForm() {
                 )}
               </div>
 
-              {/* Submit Button */}
+              
               <div className="pt-2">
                 <button
                   type="submit"
@@ -238,7 +238,7 @@ export default function LoginForm() {
                 </button>
               </div>
 
-              {/* Switch Mode */}
+              
               <div className="text-center pt-4">
                 <button
                   type="button"
@@ -260,7 +260,7 @@ export default function LoginForm() {
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/60 backdrop-blur-sm border border-white/20 shadow-sm">
             <div className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></div>
             <p className="text-xs text-gray-600 font-medium">
-              Demo Mode: Use any email and password to continue
+              
             </p>
           </div>
         </div>
